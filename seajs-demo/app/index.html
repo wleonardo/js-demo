@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+
+<body>
+</body>
+<script type="text/javascript" src="../sea-modules/sea.js"></script>
+<script type="text/javascript">
+seajs.config({
+  base: "../sea-modules/",
+  alias: {
+    "jquery": "jquery"
+  }
+});
+seajs.use(['../static/index'], function(a) {
+  console.log($);
+  a('wang');
+});
+</script>
+
+</html>
