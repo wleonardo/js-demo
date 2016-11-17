@@ -1,1 +1,1 @@
-	This repositorie is used to record my Javascript demos
+This repositorie is used to record my Javascript demos
