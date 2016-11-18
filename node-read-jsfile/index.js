@@ -23,8 +23,12 @@ var l = `(function(module){
 
 eval(l)();
 
-// const script = new vm.Script('var a = 1;console.log(a);');
+/**
+ * node内部实际使用的解析函数 runInThisContext
+ * 详见 http://nodejs.cn/doc/node/vm.html
+ */
 
-// const context = new vm.createContext({});
+// const context = 'var a = 1;console.log(a);';
 
 // script.runInThisContext(context);
+
